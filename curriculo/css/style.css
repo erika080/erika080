@@ -1,0 +1,43 @@
+footer {
+margin: 5;
+padding: 5;
+background-color: rgb(255, 0, 234);}
+
+header {
+  width: auto;
+  height: auto;
+  background-image:url('https://image.freepik.com/vector-gratis/fondo-cielo-pastel-degradado-nubes_23-2148938064.jpg');
+  background-repeat:no-repeat;
+background-size: cover;
+}
+
+ 
+img {
+display:block;
+margin: center;
+}
+
+h1{
+ text-align-last: center;
+}
+
+div.spacer-1 {
+height: 2cm;
+}
+
+div.titulo-2 {
+  background-color: gray;
+  height: 0cm;
+}
+
+div.parrafo1 {
+background-color: gray;
+height:fit-content;
+}
+
+#fotoprincipal {
+display:contents;
+margin-left: auto;
+margin-right: auto;
+}
+

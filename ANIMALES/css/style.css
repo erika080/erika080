@@ -1,0 +1,108 @@
+
+/* AQUI PARTE SUPERIOR EN NEGRO*/
+*{
+    font-family:"Roboto", sans-serif;
+}
+body{
+    margin: 0px;
+}
+ header{
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 4px;
+    height: 15px;
+    align-items: center;
+    font-size: 10px;
+    padding-left: 40px;
+    
+ }
+
+header ul li a{
+    color: white;
+    padding-right: 10px;
+    Text-decoration:none;
+}
+   
+
+
+ /* AQUI VA LA PARTE SUPERIOR NARANJA */
+
+header ul {
+    display: flex;
+    color: white;
+}
+
+#header2{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+
+}
+
+#header2 ul{
+    display: flex;
+}
+
+#header2 ul li a{
+    padding-left: 12px;
+    color: white;
+    Text-decoration:none;
+}
+#header2 #logo1
+{
+padding-top: 15px;
+}
+
+#banner {
+    display: flex;
+    position: relative;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 500px;
+
+}
+
+#bloqueabsolut {
+    position:absolute;
+    top: 40%;
+    left: 65%;
+    text-align: center;  
+}
+
+h2 {
+    background-color: white;
+    padding: 9px;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    padding:15px 23px;
+    border: none;
+} 
+
+#center
+{
+display: flex;
+align-items:center;
+flex-direction: column;
+}
+
+#contenedor-cards{
+display: flex;
+justify-content: space-around;
+}
+
+h3{
+text-align: center;
+}
+
+#contenedor-cards .cards p{
+    text-align: center;
+}
